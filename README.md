@@ -2,9 +2,13 @@ R files for POLI178 @ UCSD, Fall 2022.
 
 Description:
 
+## **Visualization**
+
 `visuals.r`: Generates exploratory visualizations (grouped barchart, boxplot, 2 geospatial heatmaps)
 
 `lda.r`: Generates text-based visuals from data (Word cloud, Latent Dirichlet model) 
+
+## **Machine Learning** 
 
 `small_model.r`: Trains KNN and Random Forest on dataset of 41 countries, after dropping NaNs 
 
@@ -12,16 +16,4 @@ Description:
 
 Authors:
 
-Gokul Prasad
-
-Jack Ryan
-
-Chong Zhang
-
-Anya Van Noord 
-
-Amanda Quinonez
-
-Nicolette Satrya
-
-Shiv Sakthivel
+Gokul Prasad, Jack Ryan, Chong Zhang, Anya Van Noord, Amanda Quinonez, Nicolette Satrya, and Shiv Sakthivel
