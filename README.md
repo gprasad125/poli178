@@ -4,8 +4,10 @@ Authors:
 
 Gokul Prasad, Jack Ryan, Chong Zhang, Anya Van Noord, Amanda Quinonez, Nicolette Satrya, and Shiv Sakthivel
 
-
 Description:
+
+## Data:
+- contains the data used in the R files. 
 
 ## **Visualization**
 
