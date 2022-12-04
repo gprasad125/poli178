@@ -21,11 +21,11 @@ require(grid)
 
 #Introduce Quality of Government 21 (qog) Dataset
 
-qog <- read_dta("C:/Users/jryan/Desktop/Poli 178 Project/Poli 178 Project/qog_bas_ts_jan21.dta")
+qog <- read_dta("data/qog_bas_ts_jan21.dta")
 
 #Introduce China Global Investment Tracker (cgit) Dataset
 
-cgit <- readxl::read_xlsx("C:/Users/jryan/Desktop/Poli 178 Project/Poli 178 Project/China-Global-Investment-Tracker-2022-SPRING-final-1.xlsx")
+cgit <- readxl::read_xlsx("data/China-Global-Investment-Tracker-2022-SPRING-final-1.xlsx")
 
 #Set seed
 set.seed(1)
