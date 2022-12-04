@@ -9,14 +9,14 @@ Description:
 ## Data:
 - contains the data used in the R files. 
 
-## **Visualization**
+## Visualization
 
-`visuals.r`: Generates exploratory visualizations (grouped barchart, boxplot, 2 geospatial heatmaps)
+`variable_visualization.r`: Generates exploratory visualizations (grouped barchart, boxplot, 2 geospatial heatmaps)
 
-`lda.r`: Generates text-based visuals from data (Word cloud, Latent Dirichlet model) 
+`text_visualization.r`: Generates text-based visuals from data (Word cloud, Latent Dirichlet model) 
 
-## **Machine Learning** 
+## Machine Learning
 
-`small_model.r`: Trains KNN and Random Forest on dataset of 41 countries, after dropping NaNs 
+`model_with_nulls_dropped.r`: Trains KNN and Random Forest on dataset of 41 countries, after dropping NaNs 
 
-`large_model.r`: Trains KNN and Random Forest on dataset of 117 countries, after imputing NaNs with mean. 
+`model_with_nulls_handled.r`: Trains KNN and Random Forest on dataset of 117 countries, after imputing NaNs with mean. 
