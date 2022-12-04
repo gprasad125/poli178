@@ -8,7 +8,7 @@ require("rnaturalearth")
 require("rnaturalearthdata")
 
 # read in dataset
-china = read.csv("chinaGlobalInvestmentTracker.csv")
+china = read.csv("data/chinaGlobalInvestmentTracker.csv")
 
 ############################################################
 
